@@ -1,3 +1,7 @@
+environment/images/isolinux/*
+environment/images/pxeboot/*
+environment/images/syslinux/*
+environment/*.vdi
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

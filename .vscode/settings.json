@@ -1,0 +1,20 @@
+{
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+          "source": "PowerShell",
+          "icon": "terminal-powershell",
+          "args": ["-ExecutionPolicy", "Bypass"]
+        }
+      },
+
+      "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    
+
+      "python.testing.cwd": "${workspaceFolder}\\backend\\app",
+      "python.testing.pytestArgs": [
+        "tests"
+      ],
+      "python.testing.unittestEnabled": false,
+      "python.testing.pytestEnabled": true,
+}

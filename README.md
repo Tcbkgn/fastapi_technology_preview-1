@@ -1,1 +1,1 @@
-# fastapi_technology_preview-1
+# fastapi_technology_preview

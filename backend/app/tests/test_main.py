@@ -1,0 +1,16 @@
+from fastapi.testclient import TestClient
+
+
+from main import app
+
+client = TestClient(app)
+
+def test_root_main():
+    response = client.get("/")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Hello World"}
+
+def test_hello_main():
+    response = client.get("/hello/FastAPI")
+    assert response.status_code == 200
+    assert response.json() == {"message": "Hello FastAPI"}
